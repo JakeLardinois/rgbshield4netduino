@@ -36,6 +36,7 @@
   </PropertyGroup>
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>
+    <Compile Include="ExtensionMethods.cs" />
     <Compile Include="MCP23017.cs" />
     <Compile Include="NetduinoI2CDevice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

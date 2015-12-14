@@ -3,3 +3,4 @@
 /NetduinoRGBLCDShield/bin
 /NetduinoRGBLCDShield/obj
 *.suo
+*.csproj

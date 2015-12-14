@@ -6,12 +6,13 @@ namespace NetduinoRGBLCDShield
 {
     public enum BacklightColor : byte
     {
+        Off = 0x0,
         Red = 0x1,
-        Yellow = 0x3,
         Green = 0x2,
-        Teal = 0x6,
+        Yellow = 0x3,
         Blue = 0x4,
         Violet = 0x5,
+        Teal = 0x6,
         White = 0x7,
         ColorCount
     }
